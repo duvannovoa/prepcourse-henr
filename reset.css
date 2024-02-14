@@ -1,0 +1,88 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding and margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  line-height: 1;
+}
+
+/* Remove hyperlink underline */
+a {
+  text-decoration: none;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Correct font smoothing for webkit */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide the overflow content from visually breaking out */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Remove border on tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Standardize form elements */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* Remove outline on active links */
+a:active,
+a:focus {
+  outline: 0;
+}
